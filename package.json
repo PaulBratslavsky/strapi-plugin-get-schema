@@ -1,10 +1,17 @@
 {
   "name": "get-strapi-schema",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Get collection type schema base on name.",
   "keywords": [],
   "license": "MIT",
   "author": "Paul Brats <paul.bratslavsky@strapi.io>",
+  "maintainers": [
+    {
+      "name": "Paul Brats",
+      "email": "paul.bratslavsky@strapi.io",
+      "url": "https://github.com/PaulBratslavsky"
+    }
+  ],
   "type": "commonjs",
   "exports": {
     "./package.json": "./package.json",
@@ -67,5 +74,9 @@
     "name": "get-strapi-schema",
     "displayName": "Get Strapi Schema",
     "description": "Get collection type schema base on name."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulBratslavsky/strapi-plugin-get-schema"
   }
 }
